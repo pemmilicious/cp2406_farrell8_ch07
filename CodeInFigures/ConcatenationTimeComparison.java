@@ -4,8 +4,8 @@ public class ConcatenationTimeComparison
    public static void main(String[] args)
    {
       int startTime, endTime;
-      final int TIMES = 200_000;
-      final int FACTOR = 1_000_000;
+      final int TIMES = 200000;
+      final int FACTOR = 1000000;
       int x;
       StringBuilder string1 = new StringBuilder("");
       StringBuilder string2 = new StringBuilder(TIMES * 4);
